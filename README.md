@@ -10,3 +10,4 @@ My Bash configuration.
 4. Symlink `~/.bash_aliases` to the `.bash_aliases` in this repository:
    `ln -s ~/.bash/bash_aliases ~/.bash_aliases`
 
+# .bash
