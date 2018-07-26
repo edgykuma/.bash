@@ -10,3 +10,8 @@ My Bash configuration.
 4. Symlink `~/.bash_aliases` to the `.bash_aliases` in this repository:
    `ln -s ~/.bash/.bash_aliases ~/.bash_aliases`
 
+Alternatively, run
+```bash
+bash <symlink_make
+```
+To run the commands listed without having to type them :-)
