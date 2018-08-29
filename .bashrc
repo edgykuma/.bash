@@ -260,3 +260,11 @@ PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;
 #export PATH=/usr/local/php5/bin:$PATH
 #export PATH=/usr/local/Cellar/php/7.2.5/bin:$PATH
 #export PATH=/usr/local/phpunit:$PATH
+
+#Stuff for 18-240 and onward
+#export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
+#export PATH="$PATH:/afs/ece/class/ece240/bin/setup_quartus"
+#export PATH="$PATH:/afs/ece/class/ece240/bin/setup_vcs"
+#source /afs/ece/class/ece240/bin/setup_vcs
+#source /afs/ece/class/ece240/bin/setup_quartus
+#source /afs/ece/class/ece240/bin/setup_240
