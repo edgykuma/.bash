@@ -268,3 +268,6 @@ export PATH="$PATH:/afs/ece/class/ece240/bin/setup_vcs"
 source /afs/ece/class/ece240/bin/setup_vcs
 source /afs/ece/class/ece240/bin/setup_quartus
 source /afs/ece/class/ece240/bin/setup_240
+
+#Stuff for 18-341
+export PATH = /afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH
