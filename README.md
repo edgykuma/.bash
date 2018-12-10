@@ -14,6 +14,8 @@ Alternatively, in the repo's directory run
 ```bash
 ./symlink_make
 ```
+You may have to edit the shebang to correctly point to where your bash is
+located.
 If you get permission errors for executing, you may have to set permissions:
 ```bash
 chmod +x symlink_make
