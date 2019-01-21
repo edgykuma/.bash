@@ -1,7 +1,28 @@
 #!/usr/bin/bash
-cd ~
-ln -s .bash/.bashrc ~/.bashrc
-ln -s .bash/.bash_profile ~/.bash_profile
-ln -s .bash/.bash_aliases ~/.bash_aliases
-cd ~/.bash
 
+cd ~
+if [ -f .bashrc ]; then
+    mv .bashrc .bashrc.bak
+    echo "Old .bashrc saved as .bashrc.bak"
+fi
+if [ -f .bash_profile ]; then
+    mv .bash_profile .bash_profile.bak
+    echo "Old .bash_profile saved as .bash_profile.bak"
+fi
+if [ -f .bash_aliases ]; then
+    mv .bash_aliases .bash_aliases.bak
+    echo "Old .bash_aliases saved as .bash_aliases.bak"
+fi
+if [ -f .tmux.conf ]; then
+    mv .tmux.conf .tmux.conf.bak
+    echo "Old .tmux.conf saved as .tmux.conf.bak"
+fi
+ln -s .bash/.bashrc .bashrc
+echo "Symlinked .bashrc"
+ln -s .bash/.bash_profile .bash_profile
+echo "Symlinked .bash_profile"
+ln -s .bash/.bash_aliases .bash_aliases
+echo "Symlinked .bash_aliases"
+ln -s .bash/.tmux.conf .tmux.conf
+echo "Symlinked .tmux.conf"
+cd ~/.bash
