@@ -53,14 +53,14 @@ if [ "$color_prompt" == yes ]; then
 
     _prompt_line_char='─'
     _prompt_git_status_prefix_branch="\[$_magenta\]"
-    _prompt_git_status_prefix_changed="\[$_bold$_blue\]✚"
+    _prompt_git_status_prefix_changed="\[$_bold$_blue\]+"
     _prompt_git_status_prefix_conflicts="\[$_red\]✘"
     _prompt_git_status_prefix_untracked="\[$_cyan\]…"
     _prompt_git_status_prefix_staged="\[$_yellow\]●"
     _prompt_git_status_prefix_stashed="\[$_blue\]■"
     _prompt_git_status_prefix_ahead="↑"
     _prompt_git_status_prefix_behind="↓"
-    _prompt_git_status_clean="\[$_green\]✔\[$_reset\]"
+    _prompt_git_status_clean="\[$_green\]✓\[$_reset\]"
 
     _prompt_git_status_prefix() {
         local stat prefix="_prompt_git_status_prefix_$1"
@@ -265,6 +265,7 @@ alias tmux="TERM=xterm-256color tmux";
 export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
 export PATH="$PATH:/afs/ece/class/ece240/bin/setup_quartus"
 export PATH="$PATH:/afs/ece/class/ece240/bin/setup_vcs"
+export PATH="$PATH:/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo"
 source /afs/ece/class/ece240/bin/setup_vcs
 source /afs/ece/class/ece240/bin/setup_quartus
 source /afs/ece/class/ece240/bin/setup_240
