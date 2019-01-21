@@ -3,7 +3,7 @@ if [ -f $HOME/.bashrc ]; then
 fi
 
 #Config for local bin
-PATH="$HOME/.local/bin:$PATH"
+#PATH="$HOME/.local/bin:$PATH"
 
-export LD_LIBRARY_PATH="$HOME/.local/lib"
-export PKG_CONFIG_PATH="$HOME/.local/lib/pkgconfig"
+#export LD_LIBRARY_PATH="$HOME/.local/lib"
+#export PKG_CONFIG_PATH="$HOME/.local/lib/pkgconfig"

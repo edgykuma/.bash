@@ -262,13 +262,13 @@ alias tmux="TERM=xterm-256color tmux";
 #export PATH=/usr/local/phpunit:$PATH
 
 #Stuff for 18-240 and onward
-export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
-export PATH="$PATH:/afs/ece/class/ece240/bin/setup_quartus"
-export PATH="$PATH:/afs/ece/class/ece240/bin/setup_vcs"
-export PATH="$PATH:/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo"
-source /afs/ece/class/ece240/bin/setup_vcs
-source /afs/ece/class/ece240/bin/setup_quartus
-source /afs/ece/class/ece240/bin/setup_240
+#export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
+#export PATH="$PATH:/afs/ece/class/ece240/bin/setup_quartus"
+#export PATH="$PATH:/afs/ece/class/ece240/bin/setup_vcs"
+#export PATH="$PATH:/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo"
+#source /afs/ece/class/ece240/bin/setup_vcs
+#source /afs/ece/class/ece240/bin/setup_quartus
+#source /afs/ece/class/ece240/bin/setup_240
 
 #Stuff for 18-341
-export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"
+#export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"

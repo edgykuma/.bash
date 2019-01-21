@@ -6,8 +6,8 @@
 #alias artisan='php artisan'
 
 #Aliases used for 240 onward
-alias vcs-sv='vcs -q -sverilog'
-alias vcs-sv-urg='vcs-sv -cm line -cm_line contassign'
-alias urg-run='urg -dir simv.vdb -format text'
-alias vlogan-sv='vlogan -sverilog -nc'
-alias vcs-mod='vcs-sv -nc'
+#alias vcs-sv='vcs -q -sverilog'
+#alias vcs-sv-urg='vcs-sv -cm line -cm_line contassign'
+#alias urg-run='urg -dir simv.vdb -format text'
+#alias vlogan-sv='vlogan -sverilog -nc'
+#alias vcs-mod='vcs-sv -nc'
