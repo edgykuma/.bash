@@ -268,3 +268,6 @@ export PATH="$PATH:$HOME/.local/bin"
 
 #Stuff for 18-341
 #export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"
+
+#Stuff for 18-447
+#source /afs/ece.cmu.edu/class/ece447/bin/447setup
