@@ -11,3 +11,5 @@
 #alias urg-run='urg -dir simv.vdb -format text'
 #alias vlogan-sv='vlogan -sverilog -nc'
 #alias vcs-mod='vcs-sv -nc'
+
+alias update-all='sudo apt update && sudo apt upgrade && sudo apt autoremove'

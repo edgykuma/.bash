@@ -254,12 +254,8 @@ PROMPT_DIRTRIM=3
 PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ ";export PS1
 
 # PATH-related lines. Comment/uncomment as appropriate
-#export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
 alias tmux="TERM=xterm-256color tmux";
-#export PATH="$PATH:$HOME/.composer/vendor/bin"
-#export PATH=/usr/local/php5/bin:$PATH
-#export PATH=/usr/local/Cellar/php/7.2.5/bin:$PATH
-#export PATH=/usr/local/phpunit:$PATH
+export PATH="$PATH:$HOME/.local/bin"
 
 #Stuff for 18-240 and onward
 #export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
