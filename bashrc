@@ -256,6 +256,7 @@ PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;
 # PATH-related lines. Comment/uncomment as appropriate
 alias tmux="TERM=xterm-256color tmux";
 export PATH="$PATH:$HOME/.local/bin"
+#export PATH="$PATH:/mnt/c/Users/Edric/Documents/bash_root/cmu/sv2v/vtr_release/vpr"
 
 #Stuff for 18-240 and onward
 #export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
