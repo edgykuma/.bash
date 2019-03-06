@@ -22,7 +22,8 @@ Alternatively, pick a path file (if needed) and in the repo's directory run
 ./symlink_make
 ```
 You may have to edit the shebang to correctly point to where your bash is
-located.
+located. Also note that the script *will not work if you have broken symlinks*.
+Please make sure these are deleted.
 
 If you get permission errors for executing, you may have to set permissions:
 ```bash

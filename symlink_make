@@ -2,27 +2,27 @@
 
 cd ~
 # Back up old config files
-if [ -f .bashrc ]; then
+if [ -e .bashrc ]; then
     mv .bashrc .bashrc.bak
     echo "Old .bashrc saved as .bashrc.bak"
 fi
-if [ -f .bash_profile ]; then
+if [ -e .bash_profile ]; then
     mv .bash_profile .bash_profile.bak
     echo "Old .bash_profile saved as .bash_profile.bak"
 fi
-if [ -f .bash_aliases ]; then
+if [ -e .bash_aliases ]; then
     mv .bash_aliases .bash_aliases.bak
     echo "Old .bash_aliases saved as .bash_aliases.bak"
 fi
-if [ -f .bash_paths ]; then
+if [ -e .bash_paths ]; then
     mv .bash_paths .bash_paths.bak
     echo "Old .bash_paths saved as .bash_paths.bak"
 fi
-if [ -f .tmux.conf ]; then
+if [ -e .tmux.conf ]; then
     mv .tmux.conf .tmux.conf.bak
     echo "Old .tmux.conf saved as .tmux.conf.bak"
 fi
-if [ -f .inputrc ]; then
+if [ -e .inputrc ]; then
     mv .inputrc .inputrc.bak
     echo "Old .inputrc saved as .inputrc.bak"
 fi
@@ -32,15 +32,15 @@ ln -s .bash/bash_profile .bash_profile
 echo "Symlinked .bash_profile"
 ln -s .bash/bash_aliases .bash_aliases
 echo "Symlinked .bash_aliases"
-if [ -f .bash/bash_paths ]; then
+if [ -e .bash/bash_paths ]; then
     ln -s .bash/bash_paths .bash_paths
     echo "Symlinked .bash_paths"
 fi
 ln -s .bash/tmux.conf .tmux.conf
 echo "Symlinked .tmux.conf"
-ln -s .bash/.inputrc .inputrc
+ln -s .bash/inputrc .inputrc
 echo "Symlinked .inputrc"
 
 cd ~/.bash
 
-# Get some args for configuring paths
+# TODO: Get some args for configuring paths
