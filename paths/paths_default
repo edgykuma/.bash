@@ -1,0 +1,3 @@
+alias tmux="TERM=xterm-256color tmux";
+export PATH="$PATH:$HOME/.local/bin"
+#export PATH="$PATH:/mnt/c/Users/Edric/Documents/bash_root/cmu/sv2v/vtr_release/vpr"

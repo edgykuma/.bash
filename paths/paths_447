@@ -1,0 +1,14 @@
+alias tmux="TERM=xterm-256color tmux";
+export PATH="$PATH:$HOME/.local/bin"
+
+# Stuff for 18-240 and onward
+export PATH="$PATH:/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo"
+
+# New version of Quartus
+export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"
+
+# Stuff for 18-447
+source /afs/ece.cmu.edu/class/ece447/bin/447setup
+
+# Sourcing Vivado
+export PATH="$PATH:/usr/local/xilinx/Vivado-2018.2/Vivado/2018.2/bin"

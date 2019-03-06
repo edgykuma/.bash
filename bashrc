@@ -250,25 +250,13 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Path variables should be located in a .bash_paths file. There are a few
+# configurations in the repo's paths folder.
+# Better to symlink to the repo root as `bash_paths` them symlink into ~
+if [ -f ~/.bash_paths ]; then
+    . ~/.bash_paths
+fi
+
 PROMPT_DIRTRIM=3
 PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ ";export PS1
 
-# PATH-related lines. Comment/uncomment as appropriate
-alias tmux="TERM=xterm-256color tmux";
-export PATH="$PATH:$HOME/.local/bin"
-#export PATH="$PATH:/mnt/c/Users/Edric/Documents/bash_root/cmu/sv2v/vtr_release/vpr"
-
-#Stuff for 18-240 and onward
-#export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15213-f17/bin"
-#export PATH="$PATH:/afs/ece/class/ece240/bin/setup_quartus"
-#export PATH="$PATH:/afs/ece/class/ece240/bin/setup_vcs"
-#export PATH="$PATH:/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo"
-#source /afs/ece/class/ece240/bin/setup_vcs
-#source /afs/ece/class/ece240/bin/setup_quartus
-#source /afs/ece/class/ece240/bin/setup_240
-
-#Stuff for 18-341
-#export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"
-
-#Stuff for 18-447
-#source /afs/ece.cmu.edu/class/ece447/bin/447setup
