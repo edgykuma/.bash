@@ -13,3 +13,4 @@
 #alias vcs-mod='vcs-sv -nc'
 
 alias update-all='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias view='vim -R'
