@@ -3,6 +3,7 @@ export PATH="$HOME/.local/bin/:$PATH"
 alias tmux="TERM=xterm-256color tmux";
 
 # Stuff for 18-240 and onward
+source /afs/ece.cmu.edu/class/ee240/bin/setup_240
 export PATH="/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo/:$PATH"
 export PATH="/afs/ece.cmu.edu/class/ee240/bin/:$PATH"
 

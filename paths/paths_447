@@ -9,6 +9,8 @@ export PATH="/afs/ece.cmu.edu/class/ee240/STAFF/ekusuma/:$PATH"
 
 # New version of Quartus
 export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"
+export QUARTUS_64BIN=1
+export LM_LICENSE_FILE=5281@altera-lic.ece.cmu.edu:$LM_LICENSE_FILE
 
 # Stuff for 18-447
 source /afs/ece.cmu.edu/class/ece447/bin/447setup
