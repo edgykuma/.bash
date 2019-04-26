@@ -4,8 +4,9 @@ alias tmux="TERM=xterm-256color tmux";
 
 # Stuff for 18-240 and onward
 export PATH="/afs/ece.cmu.edu/class/ee240/STAFF/scripts/handin240_repo/:$PATH"
+export PATH="/afs/ece.cmu.edu/class/ee240/STAFF/scripts/autograde240_repo/:$PATH"
 export PATH="/afs/ece.cmu.edu/class/ee240/bin/:$PATH"
-export PATH="/afs/ece.cmu.edu/class/ee240/STAFF/ekusuma/:$PATH"
+export PATH="/afs/ece.cmu.edu/class/ee240/STAFF/ekusuma/bin/:$PATH"
 
 # New version of Quartus
 export PATH="/afs/ece/support/altera/release/16.1.2/quartus/bin/:$PATH"
