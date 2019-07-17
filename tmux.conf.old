@@ -1,3 +1,5 @@
+# tmux configuration for older versions (i.e. tmux 1.8)
+
 # enable xterm keys
 set-option -gw xterm-keys on
 
@@ -5,8 +7,10 @@ set-option -gw xterm-keys on
 set -g default-terminal "screen-256color"
 
 # enable mouse support
-set -g mouse-utf8 on
-set -g mouse on
+set -g mode-mouse on
+set -g mouse-resize-pane on
+set -g mouse-select-pane on
+set -g mouse-select-window on
 
 # set Ctrl-a as the default prefix key combination
 # and unbind C-b to free it up
@@ -25,10 +29,10 @@ set -g set-titles-string '#(whoami)::#h::#(curl ipecho.net/plain;echo)'
 bind r source-file ~/.tmux.conf \; display "[reloaded]"
 
 # use PREFIX | to split window horizontally and PREFIX - to split vertically
-bind \ split-window -hc '#{pane_current_path}'
-bind - split-window -vc '#{pane_current_path}'
+bind \ split-window -h
+bind - split-window -v
 
-bind c new-window -c '#{pane_current_path}'
+bind c new-window
 
 # Make the current window the first window
 bind T swap-window -t 1
