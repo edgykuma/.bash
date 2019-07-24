@@ -1,8 +1,3 @@
-Copy/paste this:
-```
+#!/bin/sh
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-```
-
-and type `git lg` to get a super nice git log.
-
-Alternatively run the `install_git_lg.sh` script.
+echo "git lg alias added."
