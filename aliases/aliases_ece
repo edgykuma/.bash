@@ -9,3 +9,9 @@ alias update-all='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias view='vim -R'
 
 alias howbig='du -h -d 1'
+
+alias x11?='echo $DISPLAY'
+
+alias hopen='handin240_open'
+alias hclose='handin240_close'
+alias hextend='handin240_extend'
